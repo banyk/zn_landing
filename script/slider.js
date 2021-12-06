@@ -18,7 +18,7 @@ let sliderPricing = new Swiper('.slider-pricing', {
       simulateTouch: false,
     },
 
-    500: {
+    769: {
       slidesPerView: 5,
       direction: 'vertical',
       slidesPerGroup: 1,
@@ -46,7 +46,7 @@ let sliderReviews = new Swiper('.slider-reviews', {
         type: 'fraction',
       },
     },
-    600: {
+    769: {
       slideToClickedSlide: false,
       slidesPerView: 2,
       direction: 'vertical',

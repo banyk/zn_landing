@@ -1,13 +1,15 @@
 const toggleMenu = () => {
 
   const menuBtn = document.querySelector('.header__burger'),
-    menu = document.querySelector('.nav'),
-    footerNav = document.querySelector('.footer__nav');
+    menu = document.querySelector('.header__nav'),
+    footerNav = document.querySelector('.footer__nav'),
+    body = document.querySelector('body');
 
 
   const handlerMenu = () => {
     menu.classList.toggle('active');
     menuBtn.classList.toggle('active');
+    body.classList.toggle('lock');
   };
 
 
